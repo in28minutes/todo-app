@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import moment from "moment";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import TodoDataService from "../../api/todo/TodoDataService.js";
-import AuthenticationService from "../../AuthenticationService.js/index.js";
+import AuthenticationService from "../AuthenticationService.js";
 
 class TodoComponent extends Component {
   constructor(props) {
